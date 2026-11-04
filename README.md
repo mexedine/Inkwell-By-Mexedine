@@ -62,6 +62,10 @@ The APK is the supplied compiled artifact. It is not represented as a build gene
 
 The supplied HTML describes project drafts as local and in-memory, and warns that they are not stored after a refresh. Use the app's project backup/export feature to keep portable copies. This repository does not provide cloud sync or a backend service.
 
-## License
+## License and community ownership
 
-No license has been specified. Until a license is added, the default copyright rules apply; public visibility does not automatically grant permission to reuse or redistribute the code or artwork.
+INKWELL's original project source code is licensed under the [MIT License](LICENSE).
+
+INKWELL is intended to be community-maintained. Contributors retain copyright in their own contributions; by submitting a contribution, contributors agree that it is made available under the project's MIT License. No single contributor automatically receives ownership of another contributor's work.
+
+The MIT license applies to the original project source and documentation covered by this repository's license. The compiled APK, third-party dependencies, external assets, artwork, names and logos may have separate copyright or license terms. Their presence in this repository does not, by itself, grant additional rights to redistribute or reuse them.
