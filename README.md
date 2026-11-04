@@ -45,7 +45,18 @@ The APK is the supplied compiled artifact. It is not represented as a build gene
 
 ## Screenshots
 
-The `assets/screenshots/` directory is reserved for screenshots. The repository package does not include screenshot images; add the original PNGs here when ready.
+<img width="1080" height="2215" alt="1000103630" src="https://github.com/user-attachments/assets/8ef7e5db-75a4-41c4-ace7-2941c46d3a39" />
+
+<img width="1080" height="2215" alt="1000103632" src="https://github.com/user-attachments/assets/6b75d349-4ec9-44ab-b845-1298c44d8309" />
+
+<img width="1080" height="2215" alt="1000103634" src="https://github.com/user-attachments/assets/fd1831cc-4db7-405e-86db-87b994845668" />
+<img width="1080" height="2215" alt="1000103628" src="https://github.com/user-attachments/assets/a644f8c8-2d19-4d80-b37e-c59dc2661ba8" />
+
+<img width="1080" height="2215" alt="1000103636" src="https://github.com/user-attachments/assets/1b3f4a92-d830-4578-9a4c-226128c47c98" />
+
+<img width="1080" height="2215" alt="1000103638" src="https://github.com/user-attachments/assets/6696bbde-140a-4a07-b1d3-3dc206a328de" />
+
+(I am a Terrible Artist, so I couldn't draw something good)
 
 ## Important storage note
 
