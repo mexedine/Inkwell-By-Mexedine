@@ -1,49 +1,56 @@
 # INKWELL
 
-A playful, mobile-first drawing studio with a notebook-and-crayon visual language. INKWELL is designed for sketching, layering, experimenting with colour, and making small flipbook animations.
+A little crayon page for drawing, doodling, and frame-by-frame animation. INKWELL pairs a warm paper-and-pencil visual language with a browser-based canvas studio.
 
-## What's in this repository
+## What's inside
 
-- **[index.html](./index.html)**: the latest supplied INKWELL web build, preserved as a single-file HTML application.
-- **assets/screenshots/**: home for the supplied app screenshots and visual previews.
-- **releases/**: release notes and APK provenance.
-- **README.md**: project overview and setup notes.
+- **Drawing studio:** pencil, pen and crayon-style brushes, adjustable size and opacity, colour palette and custom colours.
+- **Canvas and paper:** paper/background packs, canvas sizing, fit controls and reference images.
+- **Layers:** add, duplicate, delete, toggle visibility and adjust opacity.
+- **Selection:** lasso selection and selection operations.
+- **Animation:** create, duplicate and delete frames, preview animation and adjust FPS.
+- **Export and backup:** export artwork and portable project data.
+- **Hand-drawn interface:** warm paper textures, rounded controls, playful loading animation and a notebook-inspired visual style.
 
-## Run INKWELL
+## Repository layout
 
-The web build is self-contained. Download `index.html` and open it in a modern browser. For the most consistent storage and offline behaviour, serve it from a local or hosted HTTP(S) origin rather than opening it as a `file://` URL.
-
-A simple local server can be started with Python:
-
-```bash
-python -m http.server 8000
+```text
+.
+├── README.md
+├── index.html
+├── assets/
+│   └── screenshots/       # Add project screenshots here
+└── android/
+    ├── Inkwell-v1.6.7.apk
+    └── README.md
 ```
 
-Then visit http://localhost:8000.
+## Run the web app
 
-## Android
+The supplied web build is a standalone HTML file. No package installation or build step is required.
 
-The supplied Android package is named `Inkwell_v1.6.7_1793794555785.apk` (9,603,129 bytes).
+1. Clone or download this repository.
+2. Open `index.html` in a modern browser.
+3. If browser restrictions affect file or download behaviour, serve the folder over HTTP instead, for example with `python -m http.server 8000`, then open `http://localhost:8000`.
 
-SHA-256:
+## Android APK
 
-```
-e79707d4dc0f57104222c64d305a2f430efa160b001d4eec978136a590378a8d
-```
+- **Version:** 1.6.7
+- **File:** `android/Inkwell-v1.6.7.apk`
+- **Original filename:** `Inkwell_v1.6.7_1793794555785.apk`
+- **Size:** 9,603,129 bytes
+- **SHA-256:** `e79707d4dc0f57104222c64d305a2f430efa160b001d4eec978136a590378a8d`
 
-The APK is a compiled installable artifact, not the editable source project. Release distribution should use a GitHub Release asset so the binary can be downloaded without bloating Git history. See [releases/README.md](./releases/README.md) for the current artifact record.
+The APK is the supplied compiled artifact. It is not represented as a build generated from the HTML source in this repository. Signing certificate, target-device compatibility and update behaviour should be verified before treating it as a production release.
 
 ## Screenshots
 
-The screenshots supplied with the project belong in `assets/screenshots/`. See [assets/screenshots/README.md](./assets/screenshots/README.md) for the intended image set and naming.
+The `assets/screenshots/` directory is reserved for screenshots. The repository package does not include screenshot images; add the original PNGs here when ready.
 
-## Project notes
+## Important storage note
 
-- The repository keeps the supplied HTML intact rather than rewriting or minifying it.
-- User drawings and local project data are stored by the application in the browser/WebView environment. They are not automatically committed to this repository.
-- Do not commit personal drawing exports, private signing keys, keystores, API tokens, or machine-specific Android configuration.
-- APK installation and runtime behaviour should be tested on the target Android device before describing a build as production-ready.
+The supplied HTML describes project drafts as local and in-memory, and warns that they are not stored after a refresh. Use the app's project backup/export feature to keep portable copies. This repository does not provide cloud sync or a backend service.
 
 ## License
 
-No license has been declared yet. Until a license is added, the default copyright rules apply and reuse should not be assumed to be permitted.
+No license has been specified. Until a license is added, the default copyright rules apply; public visibility does not automatically grant permission to reuse or redistribute the code or artwork.
