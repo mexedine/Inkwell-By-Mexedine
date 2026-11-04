@@ -1,0 +1,19 @@
+# Local editor / operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Android local machine configuration and generated output
+local.properties
+.gradle/
+build/
+*/build/
+*.jks
+*.keystore
+
+# Local drawing backups and temporary exports
+*.inkwell.json
+inkwell-local-drafts.inkwell.json
